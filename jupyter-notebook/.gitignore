@@ -1,0 +1,20 @@
+# Jupyter
+
+.ipynb_checkpoints/
+
+
+# Python
+
+__pycache__/
+
+
+# IDEA
+
+.idea/
+
+
+# Mine
+
+.env.*.json
+*.private_key
+
