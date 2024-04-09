@@ -7,6 +7,7 @@ export WHITE=$(tput setaf 7)
 
 export FLASK_APP=superset 
 
-export INSTALL_DIR=$(dirname "$0")
+export INSTALL_DIR=$(cd $(dirname "$0") & pwd)
 export CONFIG_DIR=${INSTALL_DIR}/.config
+export DATA_DIR=${INSTALL_DIR}/.data
 export SUPERSET_CONFIG_PATH=${CONFIG_DIR}/superset_config.py
