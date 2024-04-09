@@ -21,5 +21,5 @@ pipenv run superset fab create-admin --username admin --firstname Admin --lastna
 echo "${BRIGHT}${GREEN}Step 5/5: Creating Superset roles...${NORMAL}"
 pipenv run superset init
 
-echo "${BRIGHT}${GREEN}Installation completed - run ./laaunch.sh to start the superset server.${NORMAL}"
+echo "${BRIGHT}${GREEN}Installation completed - run ./launch.sh to start the superset server.${NORMAL}"
 echo ""
