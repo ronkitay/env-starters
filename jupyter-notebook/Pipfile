@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 jupyterlab = "*"
-snowflake-connector-python = "*"
 pandas = "*"
 ipynbname = "*"
 
