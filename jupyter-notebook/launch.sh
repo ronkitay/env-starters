@@ -1,6 +1,5 @@
 #!/bin/sh
 
-REPO_ROOT=$(cd $(dirname "$0") && pwd)
-export PYTHONPATH="${PYTHONPATH}:${REPO_ROOT}"
-echo "PYTHONPATH = ${PYTHONPATH}"
+source $(dirname "$0")/.env.sh
+
 pipenv run jupyter lab

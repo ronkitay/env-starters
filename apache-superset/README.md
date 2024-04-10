@@ -1,6 +1,5 @@
 # Apache Superset
 
-TBD - Not working yet!
 
 - [Apache Superset](#apache-superset)
   - [References](#references)
